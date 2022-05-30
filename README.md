@@ -1,6 +1,8 @@
-# Gil Bot
+# Gil Bot 
 
 A Multipurpose Guilded Bot, made using Guilded's Bot API.
+
+**This Bot is a WIP. It is definitely not finished.**
 
 ## Description
 
