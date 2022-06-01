@@ -26,3 +26,7 @@ or you can just wait until its released to the public.
 ### For those who do have early access
 
 See [CONTRIBUTING.md](https://github.com/ValiantWind/GilBot/blob/main/CONTRIBUTING.md)
+
+## License
+
+This bot is registered under the MIT License.
