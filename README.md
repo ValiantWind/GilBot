@@ -1,5 +1,7 @@
 # Gil Bot 
 
+<div align="center">[![GitHub stars](https://img.shields.io/github/stars/ValiantWind/GilBot?style=for-the-badge)](https://github.com/ValiantWind/GilBot/stargazers)</div>
+
 A Multipurpose Guilded Bot, made using Guilded's Bot API.
 
 **This Bot is a WIP. It is definitely not finished.**
