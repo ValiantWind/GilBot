@@ -6,7 +6,7 @@ A Multipurpose Guilded Bot, made using Guilded's Bot API.
 
 ## Description
 
-This is the first bot I made using Guilded's Early Access Bot API.    
+This is the first bot I made using Guilded's Early Access Bot API (Specifically the new @guildedjs/guildedjs library).
 
 I applied for early access to their API and managed to get in.
 
