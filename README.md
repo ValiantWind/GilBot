@@ -1,6 +1,6 @@
 # Gil Bot 
 
-<div align="center"> [![GitHub stars](https://img.shields.io/github/stars/ValiantWind/GilBot?style=for-the-badge)](https://github.com/ValiantWind/GilBot/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ValiantWind/GilBot?style=for-the-badge)](https://github.com/ValiantWind/GilBot/network) [![GitHub license](https://img.shields.io/github/license/ValiantWind/GilBot?style=for-the-badge)](https://github.com/ValiantWind/GilBot/blob/main/LICENSE) </div>
+[![GitHub stars](https://img.shields.io/github/stars/ValiantWind/GilBot?style=for-the-badge)](https://github.com/ValiantWind/GilBot/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ValiantWind/GilBot?style=for-the-badge)](https://github.com/ValiantWind/GilBot/network) [![GitHub license](https://img.shields.io/github/license/ValiantWind/GilBot?style=for-the-badge)](https://github.com/ValiantWind/GilBot/blob/main/LICENSE)
 
 A Multipurpose Guilded Bot, made using Guilded's Bot API.
 
