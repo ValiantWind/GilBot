@@ -8,7 +8,8 @@ class BotCommand extends gil.Command {
         this.aliases = ["testing", "testt"];
     }
     execute(message, args) {
-            return message.reply('Test success');
+            message.send('Test success');
+						message.delete();
     }
     init(){}
 }

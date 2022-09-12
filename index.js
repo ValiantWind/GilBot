@@ -10,4 +10,5 @@ const client = new BotClient({
     prefix: "/",
 });
 client.login();
+console.log("Bot is Online!!111!1")
 process.on("unhandledRejection", console.log);

@@ -20,13 +20,20 @@ class BotCommand extends gil.Command {
     allowedUses: 1,
   }
     async execute(message, args) {
-    
-      
+
+			if(!args.memberId){
+				return message.reply("Please provide a member's ID.");
+			}
       const userToReset = this.client.members.fetch(message.serverId, args.memberId);
 
-      (await userToReset).resetNickname()
+			if(!userToReset){
+				message.reply("This member does not exist!");
+			} else {
+				(await userToReset).resetNickname();
       
-      message.send('Success!')
+      message.send(`Successfully reset ${userToReset}'s nickname!`);
+				message.delete();
+			}
     }
     init(){}
 }

@@ -24,7 +24,11 @@ class BotCommand extends gil.Command {
   }
     async execute(message, args) {
     
-      
+      if(!args.memberId){
+				return message.reply("Please make sure you provided the valid ID of a member")
+			} else if(!args.nickname){
+				return message.reply("Please provide a nickname.")
+			}
       const userToNick = this.client.members.fetch(message.serverId, args.memberId);
 
       const nickToSet = args.nickname;

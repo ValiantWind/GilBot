@@ -2,7 +2,7 @@
   "name": "guilded-development-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "dependencies": {
     "@discordjs/collection": "^0.6.0",
     "@guildedjs/gil": "^0.2.9",
@@ -38,9 +38,9 @@
     "yn": "^3.1.1"
   },
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "ValiantWind",
+  "license": "Mozilla Public License 2.0"
 }

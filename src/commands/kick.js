@@ -11,7 +11,12 @@ class BotCommand extends gil.Command {
                 name: "memberId",
                 type: "string",
                 required: true,
-            }
+            },
+					{
+						name: "reason",
+						type: "string",
+						required: false,
+					},
         ];
     }
   cooldown = {
@@ -19,11 +24,25 @@ class BotCommand extends gil.Command {
     allowedUses: 1,
   }
     async execute(message, args) {
-       const userToKick = this.client.members.fetch(message.serverId, args.memberId);
-      
-      (await userToKick).kick();
-      message.send('Kicked!')
-    }
+
+			const userToKick = this.client.members.fetch(message.serverId, args.memberId);
+			const reason = args.reason;
+			if(!userToKick){
+				return message.reply("This member does not exist.");
+			}
+			if(!args.memberId){
+				return message.reply("You must provide a member ID");
+			}
+			if(!args.reason){
+				(await userToKick).kick();
+      message.send(`Successfully kicked ${userToKick}! || No reason provided.`);
+			message.delete();
+			} else {
+				(await userToKick).kick();
+      message.send(`Successfully kicked ${userToKick}! || ${reason}`);
+			message.delete();
+			}
+			}
     init(){}
 }
 
